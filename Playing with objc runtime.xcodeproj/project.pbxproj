@@ -13,6 +13,7 @@
 		9035EE2C1E9FF7A10055B621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9035EE2A1E9FF7A10055B621 /* Main.storyboard */; };
 		9035EE2E1E9FF7A10055B621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9035EE2D1E9FF7A10055B621 /* Assets.xcassets */; };
 		9035EE311E9FF7A10055B621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9035EE2F1E9FF7A10055B621 /* LaunchScreen.storyboard */; };
+		9035EE3A1E9FF7F60055B621 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035EE391E9FF7F60055B621 /* TestObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9035EE2D1E9FF7A10055B621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9035EE301E9FF7A10055B621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9035EE321E9FF7A10055B621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9035EE381E9FF7F60055B621 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		9035EE391E9FF7F60055B621 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				9035EE2F1E9FF7A10055B621 /* LaunchScreen.storyboard */,
 				9035EE321E9FF7A10055B621 /* Info.plist */,
 				9035EE211E9FF7A10055B621 /* Supporting Files */,
+				9035EE381E9FF7F60055B621 /* TestObject.h */,
+				9035EE391E9FF7F60055B621 /* TestObject.m */,
 			);
 			path = "Playing with objc runtime";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				9035EE291E9FF7A10055B621 /* ViewController.m in Sources */,
 				9035EE261E9FF7A10055B621 /* AppDelegate.m in Sources */,
+				9035EE3A1E9FF7F60055B621 /* TestObject.m in Sources */,
 				9035EE231E9FF7A10055B621 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = "Playing with objc runtime/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kosciej.Playing-with-objc-runtime";
@@ -285,6 +298,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN_SUSPICIOUS_MOVE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				INFOPLIST_FILE = "Playing with objc runtime/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kosciej.Playing-with-objc-runtime";
