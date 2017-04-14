@@ -57,7 +57,7 @@
          <EnvironmentVariable
             key = "OBJC_PRINT_OPTIONS"
             value = "YES"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </EnvironmentVariable>
          <EnvironmentVariable
             key = "OBJC_PRINT_VTABLE_SETUP"
