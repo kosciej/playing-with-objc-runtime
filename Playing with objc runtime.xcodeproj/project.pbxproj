@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E213B081EA0B68D009F2613 /* Playing_with_objc_runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E213B071EA0B68D009F2613 /* Playing_with_objc_runtimeTests.m */; };
+		7E213B0F1EA0B698009F2613 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035EE391E9FF7F60055B621 /* TestObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9035EE231E9FF7A10055B621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035EE221E9FF7A10055B621 /* main.m */; };
 		9035EE261E9FF7A10055B621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035EE251E9FF7A10055B621 /* AppDelegate.m */; };
 		9035EE291E9FF7A10055B621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035EE281E9FF7A10055B621 /* ViewController.m */; };
@@ -16,7 +18,20 @@
 		9035EE3A1E9FF7F60055B621 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9035EE391E9FF7F60055B621 /* TestObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7E213B0A1EA0B68D009F2613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9035EE161E9FF7A10055B621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9035EE1D1E9FF7A10055B621;
+			remoteInfo = "Playing with objc runtime";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7E213B051EA0B68D009F2613 /* Playing with objc runtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playing with objc runtimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E213B071EA0B68D009F2613 /* Playing_with_objc_runtimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playing_with_objc_runtimeTests.m; sourceTree = "<group>"; };
+		7E213B091EA0B68D009F2613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9035EE1E1E9FF7A10055B621 /* Playing with objc runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playing with objc runtime.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9035EE221E9FF7A10055B621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9035EE241E9FF7A10055B621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7E213B021EA0B68D009F2613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9035EE1B1E9FF7A10055B621 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +64,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E213B061EA0B68D009F2613 /* Playing with objc runtimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E213B071EA0B68D009F2613 /* Playing_with_objc_runtimeTests.m */,
+				7E213B091EA0B68D009F2613 /* Info.plist */,
+			);
+			path = "Playing with objc runtimeTests";
+			sourceTree = "<group>";
+		};
 		9035EE151E9FF7A10055B621 = {
 			isa = PBXGroup;
 			children = (
 				9035EE201E9FF7A10055B621 /* Playing with objc runtime */,
+				7E213B061EA0B68D009F2613 /* Playing with objc runtimeTests */,
 				9035EE1F1E9FF7A10055B621 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				9035EE1E1E9FF7A10055B621 /* Playing with objc runtime.app */,
+				7E213B051EA0B68D009F2613 /* Playing with objc runtimeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +120,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7E213B041EA0B68D009F2613 /* Playing with objc runtimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E213B0E1EA0B68D009F2613 /* Build configuration list for PBXNativeTarget "Playing with objc runtimeTests" */;
+			buildPhases = (
+				7E213B011EA0B68D009F2613 /* Sources */,
+				7E213B021EA0B68D009F2613 /* Frameworks */,
+				7E213B031EA0B68D009F2613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E213B0B1EA0B68D009F2613 /* PBXTargetDependency */,
+			);
+			name = "Playing with objc runtimeTests";
+			productName = "Playing with objc runtimeTests";
+			productReference = 7E213B051EA0B68D009F2613 /* Playing with objc runtimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9035EE1D1E9FF7A10055B621 /* Playing with objc runtime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9035EE351E9FF7A10055B621 /* Build configuration list for PBXNativeTarget "Playing with objc runtime" */;
@@ -113,6 +164,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Kosciej;
 				TargetAttributes = {
+					7E213B041EA0B68D009F2613 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
 					9035EE1D1E9FF7A10055B621 = {
 						CreatedOnToolsVersion = 8.3.1;
 						ProvisioningStyle = Automatic;
@@ -133,11 +188,19 @@
 			projectRoot = "";
 			targets = (
 				9035EE1D1E9FF7A10055B621 /* Playing with objc runtime */,
+				7E213B041EA0B68D009F2613 /* Playing with objc runtimeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7E213B031EA0B68D009F2613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9035EE1C1E9FF7A10055B621 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,6 +214,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E213B011EA0B68D009F2613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E213B0F1EA0B698009F2613 /* TestObject.m in Sources */,
+				7E213B081EA0B68D009F2613 /* Playing_with_objc_runtimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9035EE1A1E9FF7A10055B621 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -163,6 +235,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E213B0B1EA0B68D009F2613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9035EE1D1E9FF7A10055B621 /* Playing with objc runtime */;
+			targetProxy = 7E213B0A1EA0B68D009F2613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9035EE2A1E9FF7A10055B621 /* Main.storyboard */ = {
@@ -184,6 +264,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7E213B0C1EA0B68D009F2613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "Playing with objc runtimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xtb.ios.Playing-with-objc-runtimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E213B0D1EA0B68D009F2613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = "Playing with objc runtimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xtb.ios.Playing-with-objc-runtimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		9035EE331E9FF7A10055B621 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -314,6 +416,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7E213B0E1EA0B68D009F2613 /* Build configuration list for PBXNativeTarget "Playing with objc runtimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E213B0C1EA0B68D009F2613 /* Debug */,
+				7E213B0D1EA0B68D009F2613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9035EE191E9FF7A10055B621 /* Build configuration list for PBXProject "Playing with objc runtime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -330,6 +440,7 @@
 				9035EE371E9FF7A10055B621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

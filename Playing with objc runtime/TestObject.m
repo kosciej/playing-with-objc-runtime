@@ -11,6 +11,7 @@
 
 void dynamicMethodIMP(id self, SEL _cmd) {
     NSLog(@"Dynamic method!!!");
+    NSLog(@"%@", [NSThread callStackSymbols]);
 }
 
 @implementation TestObject
@@ -25,26 +26,23 @@ void dynamicMethodIMP(id self, SEL _cmd) {
 }
 
 -(oneway void)release{
-    NSLog(@"RELEASE!!!!");
-    NSLog(@"retain count: %u", [super retainCount]);
+    NSLog(@"TestObject: Release!");
     [super release];
-    NSLog(@"retain count: %u", [super retainCount]);
+
 }
 
 -(instancetype)retain{
-    NSLog(@"Retain!");
+    NSLog(@"TestObject: Retain!");
     return [super retain];
 }
 
 -(instancetype)autorelease{
-    NSLog(@"autorelease!");
+    NSLog(@"TestObject: autorelease!");
     return [super autorelease];
 }
 
 -(void)testThings {
     [self resolveThisMethodDynamically];
-    [nil resolveThisMethodDynamically];
-    
 }
 
 
